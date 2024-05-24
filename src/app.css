@@ -69,6 +69,13 @@
 }
  
 @layer base {
+
+  @font-face {
+		font-family: "geist-sans";
+		src: url("/fonts/Geist/geist.woff2") format("woff2");
+		font-display: swap;
+	}
+  
   * {
     @apply border-border;
   }
