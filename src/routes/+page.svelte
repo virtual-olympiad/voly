@@ -289,6 +289,7 @@
 			<Button target="_blank" rel="noreferrer" href={config.links.voj}>Enter VOJ</Button>
 		</Card.Footer>
 	</Card.Root>
+	<!--
 	<Card.Root class="flex w-[350px] flex-col justify-between">
 		<Card.Header>
 			<Card.Title>Above And Beyond.</Card.Title>
@@ -324,4 +325,5 @@
 			<Button>View API</Button>
 		</Card.Footer>
 	</Card.Root>
+	-->
 </section>
