@@ -1,18 +1,18 @@
 const links = {
 	github: 'https://github.com/virtual-olympiad',
-    github_voly: 'https://github.com/virtual-olympiad/voly',
-	voly: 'https://voly.mathetal.org',
-	vodb: 'https://vodb.mathetal.org',
-	voj: 'https://voj.mathetal.org',
+    github_voa: 'https://github.com/virtual-olympiad/arena',
+	voa: 'https://arena.volympiad.org',
+	vodb: 'https://db.volympiad.org',
+	voj: 'https://judge.volympiad.org',
 	polarity: 'https://polarity.sh'
 };
 
 const site = {
 	name: 'Virtual Olympiad',
-	url: 'https://vo.mathetal.org',
-	ogImage: 'https://vo.mathetal.org/vo.png',
+	url: 'https://volympiad.org',
+	ogImage: 'https://volympiad.org/vo.png',
 	description: ' Hosted platforms, APIs and tools for Science Olympiads.',
-	keywords: `Virtual Olympiad,VO,VOLY,VOJ,VODB,math,science,olympiad`
+	keywords: `Virtual Olympiad,volympiad,VO,VOLY,VOJ,VODB,math,science,olympiad`
 };
 
 const nav = [

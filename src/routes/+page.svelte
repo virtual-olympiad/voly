@@ -54,7 +54,7 @@
 		<Card.Header>
 			<Card.Title>Compete, Practice, Together.</Card.Title>
 			<Card.Description>
-				Create extensively customizable multiplayer mocks using VOLY. Play in Free-for-all or Team
+				Create extensively customizable multiplayer mocks on the Virtual Olympiad Arena (VOA). Play in Free-for-all or Team
 				formats with lobbies up to 16 people.
 			</Card.Description>
 		</Card.Header>
@@ -102,11 +102,11 @@
 			>
 		</Card.Content>
 		<Card.Footer class="flex justify-between">
-			<Button variant="outline" target="_blank" rel="noreferrer" href={config.links.github_voly}>
+			<Button variant="outline" target="_blank" rel="noreferrer" href={config.links.github_voa}>
 				<GithubLogo class="mr-2 h-4 w-4" />
 				GitHub
 			</Button>
-			<Button>Play VOLY</Button>
+			<Button href={config.links.voa}>Play VOA</Button>
 		</Card.Footer>
 	</Card.Root>
 	<Card.Root class="flex w-[350px] flex-col justify-between">
@@ -114,7 +114,7 @@
 			<Card.Title>Problems, All The Problems.</Card.Title>
 			<Card.Description
 				>Access our massive schemaful collection of indexed contest problems, fully categorized with
-				tags, difficulty, sources, etc. AMC, IPhO, Classics; you name it, VODB probably has it.</Card.Description
+				tags, difficulty, sources, etc. AMC, IPhO, Classics; you name it, Virtual Olympiad Database (VODB) probably has it.</Card.Description
 			>
 		</Card.Header>
 		<Card.Content>
@@ -211,7 +211,7 @@
 			<Card.Title>Train Like Never Before.</Card.Title>
 			<Card.Description
 				>Track your problem-solving journey and progress efficiently with the Virtual Olympiad
-				Judge.
+				Judge (VOJ).
 			</Card.Description>
 		</Card.Header>
 		<Card.Content>
