@@ -21,8 +21,8 @@ const nav = [
 		href: '/about'
 	},
 	{
-		title: 'VOLY',
-		href: '/voly'
+		title: 'Arena',
+		href: '/arena'
 	},
 	{
 		title: 'Judge',
@@ -32,13 +32,15 @@ const nav = [
 		title: 'Database',
 		href: '/vodb'
 	},
+	/**
 	{
 		title: 'API',
 		href: '/api'
 	},
+	*/
 	{
-		title: 'Contribute',
-		href: 'contribute'
+		title: 'Sponsor',
+		href: 'sponsor'
 	}
 ];
 

@@ -202,7 +202,7 @@
 			</Card.Root>
 		</Card.Content>
 		<Card.Footer class="flex justify-between">
-			<Button variant="outline">Contribute</Button>
+			<Button target="_blank" rel="noreferrer" href={config.links.vodb + '/contribute'} variant="outline">Contribute</Button>
 			<Button target="_blank" rel="noreferrer" href={config.links.vodb}>Access VODB</Button>
 		</Card.Footer>
 	</Card.Root>
