@@ -106,7 +106,7 @@
 				<GithubLogo class="mr-2 h-4 w-4" />
 				GitHub
 			</Button>
-			<Button href={config.links.voa}>Play VOA</Button>
+			<Button href={config.links.voa}>Play Arena</Button>
 		</Card.Footer>
 	</Card.Root>
 	<Card.Root class="flex w-[350px] flex-col justify-between">
@@ -203,7 +203,7 @@
 		</Card.Content>
 		<Card.Footer class="flex justify-between">
 			<Button target="_blank" rel="noreferrer" href={config.links.vodb + '/contribute'} variant="outline">Contribute</Button>
-			<Button target="_blank" rel="noreferrer" href={config.links.vodb}>Access VODB</Button>
+			<Button target="_blank" rel="noreferrer" href={config.links.vodb}>Access Database</Button>
 		</Card.Footer>
 	</Card.Root>
 	<Card.Root class="flex w-[350px] flex-col justify-between">
@@ -286,7 +286,7 @@
 				<GithubLogo class="mr-2 h-4 w-4" />
 				GitHub
 			</Button>
-			<Button target="_blank" rel="noreferrer" href={config.links.voj}>Enter VOJ</Button>
+			<Button target="_blank" rel="noreferrer" href={config.links.voj}>Enter Judge</Button>
 		</Card.Footer>
 	</Card.Root>
 	<!--

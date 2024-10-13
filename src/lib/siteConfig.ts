@@ -11,7 +11,7 @@ const site = {
 	name: 'Virtual Olympiad',
 	url: 'https://volympiad.org',
 	ogImage: 'https://volympiad.org/vo.png',
-	description: ' Hosted platforms, APIs and tools for Science Olympiads.',
+	description: 'Hosted platforms, APIs and tools for Science Olympiads.',
 	keywords: `Virtual Olympiad,volympiad,VO,VOLY,VOJ,VODB,math,science,olympiad`
 };
 
@@ -22,15 +22,15 @@ const nav = [
 	},
 	{
 		title: 'Arena',
-		href: '/arena'
+		href: links.voa
 	},
 	{
 		title: 'Judge',
-		href: '/voj'
+		href: links.voj
 	},
 	{
 		title: 'Database',
-		href: '/vodb'
+		href: links.vodb
 	},
 	/**
 	{
@@ -39,8 +39,12 @@ const nav = [
 	},
 	*/
 	{
+		title: 'Team',
+		href: '/team'
+	},
+	{
 		title: 'Sponsor',
-		href: 'sponsor'
+		href: '/sponsor'
 	}
 ];
 
